@@ -1,0 +1,1013 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap");
+@media (max-width: 375px) {
+  .column {
+    display: block;
+    grid-template-columns: 1, auto;
+    padding: 0.3rem;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .contact-list {
+    color: #fff;
+    padding: 0.3rem;
+    text-align: center;
+  }
+  .contact-list li {
+    list-style: none;
+    margin: 0.3rem;
+  }
+  .contact-list h3 {
+    margin: 0.3rem;
+  }
+  .form-control .form-go input {
+    background: none;
+    border-style: none;
+    border-bottom-width: 0.1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    padding: 0.3rem;
+    width: 70%;
+  }
+  .form-control .form-go textarea {
+    background: none;
+    border-style: none;
+    border-bottom-width: 0.1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    padding: 0.3rem;
+    width: 70%;
+  }
+  footer {
+    display: block;
+    height: 30%;
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 0.3rem;
+  }
+  footer h2 {
+    padding: 0.3rem;
+  }
+  footer p {
+    padding: 0.3rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    text-align: center;
+    height: 2rem;
+  }
+  .navbar a {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .navbar a:hover {
+    border-bottom: 0;
+  }
+  .navbar li {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    border-top: #fff solid 0.08rem;
+  }
+  .navbar li:hover {
+    border-bottom: #fff 0.2rem solid;
+  }
+  .navbar.top {
+    opacity: 0.8;
+    position: sticky;
+    display: block;
+  }
+  .inventor {
+    height: 80vh;
+  }
+  .inventor .content {
+    padding-top: 18rem;
+    padding-left: 4rem;
+    padding-right: 0;
+    text-align: left;
+  }
+  .inventor .content h1 {
+    font-size: 2.5rem;
+  }
+  .inventor .content p {
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-size: 0.5rem;
+    font-weight: 0.9rem;
+    padding: 0.3rem;
+    border-top: 0.1rem solid #fff;
+    border-bottom: 0.1rem solid #fff;
+  }
+  .info-content .btn {
+    border-top: 0.1rem solid #000;
+    border-bottom: 0.1rem solid #000;
+  }
+  .callback .btn {
+    margin-top: 2rem;
+    width: 5rem;
+  }
+  #main-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.8rem 0;
+    margin: 1rem 0;
+  }
+  #main-info .info-img {
+    height: 10rem;
+  }
+  #main-info .info-content {
+    text-align: center;
+    padding: 0.6rem;
+  }
+  #main-info .info-content p {
+    font-size: 0.8rem;
+    margin: 0.2rem;
+  }
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-container #gallery img {
+    height: 20rem;
+  }
+  .example-picture {
+    position: relative;
+  }
+  .location-title {
+    font-size: 1em;
+  }
+  #success {
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.2rem;
+  }
+  #success p {
+    font-size: 0.8rem;
+    color: #868686;
+    line-height: 2;
+  }
+  .gridOne {
+    margin: 0.6rem;
+  }
+  .gridTwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.8rem;
+  }
+  .gridTwo .box {
+    margin: 1rem;
+  }
+  .column {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+  .contact-list {
+    padding: 0.3rem;
+  }
+  .contact-list li {
+    margin: 0.3rem;
+  }
+  .contact-list h3 {
+    margin: 0.3rem;
+  }
+  .form-control .form-go input {
+    border-bottom-width: 0.1rem;
+    padding: 0.8rem;
+    width: 80%;
+  }
+  .form-control .form-go textarea {
+    border-bottom-width: 0.1rem;
+    padding: 0.8rem;
+    width: 80%;
+  }
+  footer h2 {
+    padding: 0.3rem;
+  }
+  footer p {
+    padding: 0.3rem;
+  }
+  #contact {
+    display: block;
+    background: url(./img/footer.jpeg) center/cover no-repeat;
+    height: 70vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar {
+    text-align: center;
+    height: 2rem;
+  }
+  .navbar a {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .navbar a:hover {
+    border-bottom: 0;
+  }
+  .navbar li {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    border-top: #fff solid 0.08rem;
+  }
+  .navbar li:hover {
+    border-bottom: #fff 0.2rem solid;
+  }
+  .navbar.top {
+    opacity: 0.8;
+    position: sticky;
+    display: block;
+  }
+  .inventor {
+    height: 80vh;
+  }
+  .inventor .content {
+    padding-top: 18rem;
+    padding-left: 4rem;
+    padding-right: 0;
+    text-align: left;
+  }
+  .inventor .content h1 {
+    font-size: 2.5rem;
+  }
+  .inventor .content p {
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-size: 0.5rem;
+    font-weight: 0.9rem;
+    padding: 0.3rem;
+    border-top: 0.1rem solid #fff;
+    border-bottom: 0.1rem solid #fff;
+  }
+  .info-content .btn {
+    border-top: 0.1rem solid #000;
+    border-bottom: 0.1rem solid #000;
+  }
+  .callback .btn {
+    margin-top: 2rem;
+    width: 5rem;
+  }
+  #main-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.8rem 0;
+    margin: 1rem 0;
+  }
+  #main-info .info-img {
+    height: 10rem;
+  }
+  #main-info .info-content {
+    text-align: center;
+    padding: 0.6rem;
+  }
+  #main-info .info-content p {
+    font-size: 0.8rem;
+    margin: 0.2rem;
+  }
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-container #gallery img {
+    height: 15rem;
+  }
+  .example-picture {
+    position: relative;
+  }
+  .location-title {
+    font-size: 1em;
+  }
+  #success {
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.2rem;
+  }
+  #success p {
+    font-size: 0.8rem;
+    color: #868686;
+    line-height: 2;
+  }
+  .gridOne {
+    margin: 0.6rem;
+  }
+  .gridTwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.8rem;
+  }
+  .gridTwo .box {
+    margin: 1rem;
+  }
+  .column {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+  .contact-list {
+    padding: 0.3rem;
+  }
+  .contact-list li {
+    margin: 0.3rem;
+  }
+  .contact-list h3 {
+    margin: 0.3rem;
+  }
+  .form-control .form-go input {
+    border-bottom-width: 0.1rem;
+    padding: 0.8rem;
+    width: 80%;
+  }
+  .form-control .form-go textarea {
+    border-bottom-width: 0.1rem;
+    padding: 0.8rem;
+    width: 80%;
+  }
+  footer h2 {
+    padding: 0.3rem;
+  }
+  footer p {
+    padding: 0.3rem;
+  }
+  #contact {
+    display: block;
+    background: url(./img/footer.jpeg) center/cover no-repeat;
+    height: 70vh;
+  }
+}
+
+@keyframes appearance {
+  from {
+    color: transparent;
+  }
+  to {
+    color: #fff;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  opacity: 0.8;
+  width: 100%;
+  height: 4rem;
+  padding: 0;
+}
+
+.navbar a {
+  display: inline-block;
+  font: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem;
+}
+
+.navbar a:hover {
+  border-bottom: #fff 0.2rem solid;
+}
+
+.navbar li {
+  float: right;
+  list-style: none;
+  padding: 6rem;
+}
+
+.navbar.top {
+  opacity: 0.6;
+  position: fixed;
+}
+
+.inventor {
+  display: block;
+  background: url(./img/nature.jpeg) no-repeat center/cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.inventor .content {
+  padding: 20rem;
+  text-align: left;
+  animation-name: appearance;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-direction: inherit;
+}
+
+.inventor .content h1 {
+  font-size: 5rem;
+  font: "Roboto", sans-serif;
+}
+
+.inventor .content p {
+  font-size: 2rem;
+  margin: 1rem;
+  font: "Roboto", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 1, 5rem;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  padding: 1rem;
+  border-top: 0.2rem solid #fff;
+  border-bottom: 0.2rem solid #fff;
+}
+
+.info-content .btn {
+  border-top: 0.2rem solid #000;
+  border-bottom: 0.2rem solid #000;
+  color: #000;
+}
+
+.callback .btn {
+  margin-top: 2rem;
+  width: 8rem;
+}
+
+#main-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem 0;
+  margin: 4rem 0;
+}
+
+#main-info .info-img {
+  background: url("./img/photobook.jpeg") no-repeat center center/cover;
+  height: 30rem;
+}
+
+#main-info .info-content {
+  text-align: center;
+  padding: 6rem;
+  overflow: hidden;
+}
+
+#main-info .info-content p {
+  font-size: 1rem;
+  font: "Roboto", sans-serif;
+  color: #868686;
+  margin: 2rem;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-container #gallery img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.example-picture {
+  position: relative;
+}
+
+.example-picture:hover .location-title {
+  opacity: 1;
+}
+
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background: rgba(212, 208, 208, 0.4);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#success {
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: center;
+  text-decoration: none;
+  margin: 5rem;
+}
+
+#success p {
+  font-size: 1rem;
+  font: "Roboto", sans-serif;
+  color: #868686;
+  line-height: 2;
+}
+
+.gridOne {
+  margin: 6rem;
+}
+
+.gridTwo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5rem;
+  padding: 3rem;
+}
+
+.gridTwo .box {
+  margin: 1rem;
+}
+
+#contact {
+  display: block;
+  background: url(./img/footer.jpeg) center/cover no-repeat;
+  height: 70vh;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  padding: 10rem;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.contact-list {
+  color: #fff;
+  padding: 4rem;
+  text-align: center;
+}
+
+.contact-list li {
+  list-style: none;
+  margin: 1rem;
+  font: "Roboto", sans-serif;
+}
+
+.contact-list h3 {
+  margin: 1rem;
+  font: "Roboto", sans-serif;
+}
+
+.form-control .form-go input {
+  background: none;
+  border-style: none;
+  border-bottom-width: 0.1rem;
+  border-bottom-style: solid;
+  border-bottom-color: #fff;
+  padding: 1rem;
+  width: 70%;
+}
+
+.form-control .form-go textarea {
+  background: none;
+  border-style: none;
+  border-bottom-width: 0.1rem;
+  border-bottom-style: solid;
+  border-bottom-color: #fff;
+  padding: 1rem;
+  width: 70%;
+}
+
+footer {
+  display: block;
+  height: 30%;
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer h2 {
+  font: "Roboto", sans-serif;
+  padding: 1rem;
+}
+
+footer p {
+  font: "Roboto", sans-serif;
+  padding: 1rem;
+}
+
+.copyrights {
+  padding-bottom: 0;
+  margin: 0;
+}
+
+@media (max-width: 375px) {
+  .column {
+    display: block;
+    grid-template-columns: 1, auto;
+    padding: 0.3rem;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .contact-list {
+    color: #fff;
+    padding: 0.3rem;
+    text-align: center;
+  }
+  .contact-list li {
+    list-style: none;
+    margin: 0.3rem;
+  }
+  .contact-list h3 {
+    margin: 0.3rem;
+  }
+  .form-control .form-go input {
+    background: none;
+    border-style: none;
+    border-bottom-width: 0.1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    padding: 0.3rem;
+    width: 70%;
+  }
+  .form-control .form-go textarea {
+    background: none;
+    border-style: none;
+    border-bottom-width: 0.1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    padding: 0.3rem;
+    width: 70%;
+  }
+  footer {
+    display: block;
+    height: 30%;
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 0.3rem;
+  }
+  footer h2 {
+    padding: 0.3rem;
+  }
+  footer p {
+    padding: 0.3rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    text-align: center;
+    height: 2rem;
+  }
+  .navbar a {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .navbar a:hover {
+    border-bottom: 0;
+  }
+  .navbar li {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    border-top: #fff solid 0.08rem;
+  }
+  .navbar li:hover {
+    border-bottom: #fff 0.2rem solid;
+  }
+  .navbar.top {
+    opacity: 0.8;
+    position: sticky;
+    display: block;
+  }
+  .inventor {
+    height: 80vh;
+  }
+  .inventor .content {
+    padding-top: 18rem;
+    padding-left: 4rem;
+    padding-right: 0;
+    text-align: left;
+  }
+  .inventor .content h1 {
+    font-size: 2.5rem;
+  }
+  .inventor .content p {
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-size: 0.5rem;
+    font-weight: 0.9rem;
+    padding: 0.3rem;
+    border-top: 0.1rem solid #fff;
+    border-bottom: 0.1rem solid #fff;
+  }
+  .info-content .btn {
+    border-top: 0.1rem solid #000;
+    border-bottom: 0.1rem solid #000;
+  }
+  .callback .btn {
+    margin-top: 2rem;
+    width: 5rem;
+  }
+  #main-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.8rem 0;
+    margin: 1rem 0;
+  }
+  #main-info .info-img {
+    height: 10rem;
+  }
+  #main-info .info-content {
+    text-align: center;
+    padding: 0.6rem;
+  }
+  #main-info .info-content p {
+    font-size: 0.8rem;
+    margin: 0.2rem;
+  }
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-container #gallery img {
+    height: 20rem;
+  }
+  .example-picture {
+    position: relative;
+  }
+  .location-title {
+    font-size: 1em;
+  }
+  #success {
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.2rem;
+  }
+  #success p {
+    font-size: 0.8rem;
+    color: #868686;
+    line-height: 2;
+  }
+  .gridOne {
+    margin: 0.6rem;
+  }
+  .gridTwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.8rem;
+  }
+  .gridTwo .box {
+    margin: 1rem;
+  }
+  .column {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+  .contact-list {
+    padding: 0.3rem;
+  }
+  .contact-list li {
+    margin: 0.3rem;
+  }
+  .contact-list h3 {
+    margin: 0.3rem;
+  }
+  .form-control .form-go input {
+    border-bottom-width: 0.1rem;
+    padding: 0.8rem;
+    width: 80%;
+  }
+  .form-control .form-go textarea {
+    border-bottom-width: 0.1rem;
+    padding: 0.8rem;
+    width: 80%;
+  }
+  footer h2 {
+    padding: 0.3rem;
+  }
+  footer p {
+    padding: 0.3rem;
+  }
+  #contact {
+    display: block;
+    background: url(./img/footer.jpeg) center/cover no-repeat;
+    height: 70vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar {
+    text-align: center;
+    height: 2rem;
+  }
+  .navbar a {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .navbar a:hover {
+    border-bottom: 0;
+  }
+  .navbar li {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    border-top: #fff solid 0.08rem;
+  }
+  .navbar li:hover {
+    border-bottom: #fff 0.2rem solid;
+  }
+  .navbar.top {
+    opacity: 0.8;
+    position: sticky;
+    display: block;
+  }
+  .inventor {
+    height: 80vh;
+  }
+  .inventor .content {
+    padding-top: 18rem;
+    padding-left: 4rem;
+    padding-right: 0;
+    text-align: left;
+  }
+  .inventor .content h1 {
+    font-size: 2.5rem;
+  }
+  .inventor .content p {
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-size: 0.5rem;
+    font-weight: 0.9rem;
+    padding: 0.3rem;
+    border-top: 0.1rem solid #fff;
+    border-bottom: 0.1rem solid #fff;
+  }
+  .info-content .btn {
+    border-top: 0.1rem solid #000;
+    border-bottom: 0.1rem solid #000;
+  }
+  .callback .btn {
+    margin-top: 2rem;
+    width: 5rem;
+  }
+  #main-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.8rem 0;
+    margin: 1rem 0;
+  }
+  #main-info .info-img {
+    height: 10rem;
+  }
+  #main-info .info-content {
+    text-align: center;
+    padding: 0.6rem;
+  }
+  #main-info .info-content p {
+    font-size: 0.8rem;
+    margin: 0.2rem;
+  }
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-container #gallery img {
+    height: 15rem;
+  }
+  .example-picture {
+    position: relative;
+  }
+  .location-title {
+    font-size: 1em;
+  }
+  #success {
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.2rem;
+  }
+  #success p {
+    font-size: 0.8rem;
+    color: #868686;
+    line-height: 2;
+  }
+  .gridOne {
+    margin: 0.6rem;
+  }
+  .gridTwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.8rem;
+  }
+  .gridTwo .box {
+    margin: 1rem;
+  }
+  .column {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+  .contact-list {
+    padding: 0.3rem;
+  }
+  .contact-list li {
+    margin: 0.3rem;
+  }
+  .contact-list h3 {
+    margin: 0.3rem;
+  }
+  .form-control .form-go input {
+    border-bottom-width: 0.1rem;
+    padding: 0.8rem;
+    width: 80%;
+  }
+  .form-control .form-go textarea {
+    border-bottom-width: 0.1rem;
+    padding: 0.8rem;
+    width: 80%;
+  }
+  footer h2 {
+    padding: 0.3rem;
+  }
+  footer p {
+    padding: 0.3rem;
+  }
+  #contact {
+    display: block;
+    background: url(./img/footer.jpeg) center/cover no-repeat;
+    height: 70vh;
+  }
+}
